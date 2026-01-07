@@ -13,7 +13,7 @@ llm = ChatGroq(
 
 prompt = PromptTemplate(
     input_variables =   ["question"],
-    template = "Answer the question clearly: \n Question : {question}"
+    template = "Answer the question clearly and accurately: \n Question : {question}"
 
 )
 
