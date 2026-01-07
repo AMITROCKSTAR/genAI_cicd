@@ -17,3 +17,5 @@ def health():
 def ask(query:Query):
     answer = ask_llm(query.question)
     return {"answer": answer}
+
+
