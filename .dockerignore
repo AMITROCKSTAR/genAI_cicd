@@ -1,0 +1,12 @@
+.git
+.gitignore
+
+
+## Environment variables
+
+.env
+
+## Virtual environments 
+
+venv/
+.env/
